@@ -1,0 +1,669 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body a{
+  color: white !important;
+}
+
+.pagination a{
+  background-color: black !important;
+}
+.table tr td{
+  color: white !important;
+}
+.table tr th{
+  color: white !important;
+}
+
+.common_text_color{
+  color: white;
+}
+
+h4{
+  color: white !important;
+}
+h3{
+  color: white !important;
+}
+
+li{
+  background-color: black !important;
+}
+
+.hidden{
+  visibility: hidden;
+}
+.blog-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  background-color: black;
+  box-shadow: 2px 2px white;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.topbar {
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+.topbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.topbar p{
+    margin-bottom: 0;
+}
+
+.accessibility-links{
+    display: flex;
+    min-width: 480px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.accessibility-links li{
+    list-style: none;
+}
+
+.mysearchbox {
+  border: 2px solid transparent;
+  width: 50%;
+}
+.searchfiltertxt {
+  position: absolute;
+  top: 0px;
+}
+.after_login_color{
+  color:  white !important;
+}
+
+
+
+.searchfiltertxt a {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-item{
+  margin-top:-1%;
+}
+
+
+.nav-scroller{
+    background-color: black;
+}
+
+.nav-scroller a{
+    color: white;
+    text-decoration: none;
+}
+.nav_color_hover:hover{
+  color:white;
+}
+
+
+.meetinginfo-box, 
+.noticeinfo-box{
+    border: 1px solid #E9E9E9;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 0.5rem auto;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.meetinginfo-box h6, 
+.noticeinfo-box h6{
+    color: white;
+}
+.noticeinfo-box ul {
+    padding-left: 0;
+}
+
+.noticeinfo-box ul li{
+    list-style: none;
+    white-space: pre-line;
+    padding-bottom: 8px;
+}
+.custom_container{
+  width:98%;
+  margin-left: 1%;
+  background-color: black;
+}
+
+.base_child{
+  margin-top: 233px;
+}
+.latest_upadte{
+  background-color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  width: 100%;
+  margin-left:0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  
+}
+.latest_upadte a{
+  
+  color: white;
+  padding-bottom:5px;
+  font-size: .9em;;
+  
+}
+div.scroll {
+  /* overflow-x: auto;
+  overflow-y: hidden; */
+  white-space: nowrap;
+  padding-bottom: 15px;
+}
+.tiles{
+  width:100%;
+  background-color:black;
+ 
+
+}
+.tiles_child{
+  text-align: center;
+  padding-bottom: 3px;
+}
+.tile_icon{
+  padding-top:10px
+}
+.tile_text{
+  font-size: 1.2em;
+  transition: all .5s;
+}
+.tile_link{
+  font-size: .8em;
+}
+.react-calendar__tile--now {
+  background: gray  !important;
+  
+}
+.react-calendar{
+  background-color: black !important;
+  border: 2px solid rgb(168, 209, 243) !important;
+  box-shadow: 2px 2px 2px lightgray;
+  border-radius: 8px !important; 
+  width: 100% !important;
+  color: white !important;
+}
+.react-calendar__navigation button{
+background-color: white !important;
+}
+
+.leftside_content{
+  border: 1px solid lightgray;
+  padding:12px 8px;
+  height: 266px;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+}
+.leftside_content .row{
+  margin: 0px;
+}
+.date_month{
+  text-align: center;
+  padding:3px 0px 3px 0px;
+}
+.date_bg{
+  background-color: black;
+  
+}
+.month_bg{
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding-top:2%;
+  padding-left:2%;
+  padding-right:2%;
+}
+.footer ol, ul {
+  padding-left: 1rem;
+}
+.footer p {
+ 
+  margin-bottom: .2rem;
+}
+.footer a {
+ color: white;
+ text-decoration: none;
+}
+.footer_end{
+  color: white;
+  padding:2%;
+  background-color: black;
+  margin: 0px !important;
+}
+.footer_end p {
+  margin-bottom: .2rem;
+}
+.footer_end a{
+  color: white;
+  text-decoration: none;
+}
+.text_color{
+  color: white;
+}
+.digitalindia{
+  top: 0%;
+  right: 2%;
+  width: 10%;
+}
+
+.tiles .tooltiptext {
+
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  left: 8px;
+  
+  padding: 12px 16px;
+  position: absolute;
+  top: -40%;
+ 
+  width: 292px;
+  visibility: hidden;
+  background-color:black;
+  z-index: 190908;
+  text-align: center;
+  transition: all .5s;
+  
+}
+
+
+
+.tiles:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.tiles:hover .tile_text{
+  font-size: 1.5em;
+}
+.tiles:hover .tiles_child{
+  padding-bottom: 1px;
+}
+
+.drop{
+  color: white !important;
+}
+.drop .dropdown-item{
+  color: white !important;
+}
+.drop:hover {
+  color: white !important;
+}
+.dropdown-item:hover, .dropdown-item:focus{
+  color: black !important;
+  background-color:white !important;
+}
+.react-calendar__tile--active{
+  color: black !important;
+  background-color:white !important;
+
+}
+.btn-primary{
+  color: white !important;
+  background-color:black !important;
+}
+.social_media{
+  position: fixed;
+  top: 40%;
+  right: 0%;
+  z-index: 9999;
+  background-color:black;
+  padding: 10px;
+  border-radius: 25px;
+
+}
+.chatbot{
+  width: 30%;
+  position: fixed;
+  right: 0%;
+  bottom:0%;
+  z-index: 99999;
+}
+.chatbot_icon{
+  width: 5%;
+  position: fixed;
+  right: 5%;
+  bottom:10%;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.base_nav{
+  margin-top: 192px;
+}
+.base_nav .row{
+  margin: 0px ;
+}
+
+.niclogo{
+  width: 30%;
+}
+.scilogo{
+  width: 62%;
+}
+/* Chief Justice & Judges CSS START Here */
+.left-link-panel, .right-panel{
+  background-color:black;
+  height: 100%;
+  border: 1px solid #E9E9E9;  
+  box-sizing: border-box;
+}
+
+.right-panel{
+  padding: 1rem 2rem;
+}
+.left-link-panel h4{
+  background-color:black;
+  font-size: 1.1rem;
+  color:#103654;
+  padding: 1rem;
+}
+
+.left-link-panel ul{
+  padding: 0;
+  margin: 0;
+}
+
+.left-link-panel ul li{
+  list-style: none;
+  padding: 0.5rem 1rem 1.2rem;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.left-link-panel ul li a{
+  color:white;
+  text-decoration: none;
+  transition: all .5s;
+}
+.left-link-panel ul li a:hover,
+.left-link-panel ul li a:focus{
+color: white;
+}
+.judges-info{
+  margin-bottom: 1rem;
+}
+
+.judges-photos{
+  position: relative;
+  min-width: 264px;
+  min-height: 200px;
+  text-align: center;
+  background: linear-gradient(180deg, #F2F2F2 0%, rgba(242, 242, 242, 0) 100%);
+  border: 1px solid #F5F5F5;
+  border-radius: 100px 100px 0px 0px;
+  box-sizing: border-box;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+.description-txt{
+  box-sizing: border-box;
+  min-width: 264px;
+  min-height: 200px;
+  background: #FFFFFF;
+  border: 2px solid #F5F5F5;
+  border-radius: 0px 0px 23px 0px;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.description-txt p:first-child{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+.dob,.doa,.dor{
+  display: block;
+}
+.description-txt p{
+  color: black !important;
+}
+.description-txt a{
+  color: black !important;
+}
+
+
+/* Chief Justice & Judges CSS END Here */
+
+
+/* Notice & Circulars CSS STAER Here */
+
+
+.filter_options{
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+/* Notice & Circulars CSS END Here */
+
+
+/* Dashboard CSS STAt Here */
+.dashboard_headeing,.dashboard_content{
+ 
+  margin-top:10px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+.dashboard_content{
+  width: 98%;
+  margin-left: 1%;
+}
+.judgeicon{
+  width:15%
+}
+.dashboard_tile{
+  border:1px solid lightgray;
+  padding:30px;
+  border-radius: 32px;
+}
+
+.tile_percentage{
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  padding: 20px;
+  width: 25%;
+  border-radius: 48%;
+  background-color:black;
+  
+  color: white;
+  
+}
+
+
+
+.dashboard_tile_bg{
+  background: white; 
+  color:black !important; 
+}
+
+
+/* Dashboard & Circulars CSS END Here */
+
+
+.couselist tr td{
+ border:1px solid lightgray;
+ padding: 10px;
+}
+.couselist tr th{
+  border:1px solid lightgray;
+  padding: 10px;
+ }
+
+.archive_button{
+  border: 1px solid #1F6AA1;
+}
+.couse_list_table table{
+
+  margin-top: 10px !important;
+}
+
+
+
+/* Judge profile & Circulars CSS Start Here */
+.profile-txt{
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+}
+.profile-txt div:first-child{
+border-left: 10px solid black;
+padding-left: 1rem;
+}
+
+.profile-txt h5{
+  border-left: 10px solid black;
+padding-left: 1rem;
+}
+.profile-txt p:first-child{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.noleftbdr{
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+.pleft-23{
+  padding-left: 1.64rem;
+}
+.profile-txt p{
+  color: black !important;
+}
+.profile-txt a{
+  color: black !important;
+}
+.profile-txt h5{
+  color: black !important;
+}
+/* Judge profile & Circulars CSS END Here */
+
+/* dashboad css start here */
+
+.casecontent{
+border: 2px solid rgb(168, 209, 243);
+border-radius: 8px;
+height: 100%;
+}
+.dashboard_count_tile{
+ 
+  border-radius: 8px;
+
+}
+.dashboard_count_tile p{
+  margin-bottom: 3px;
+}
+
+/* dashboad css end here */
+
+.tiles:hover .tooltip {
+
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+    transition: .3s linear;
+  animation: arvi 1s ease-in-out infinite  alternate;
+  /* visibility: visible; */
+}
+
+@keyframes arvi {
+  0%{
+    transform: translateY(6px); 
+  }
+
+  100%{
+    transform: translateY(1px); 
+  }
+
+}
+
+.after_login a{ 
+  text-decoration: none;
+}
+
+
+.tooltip {
+  visibility: hidden;
+  z-index: 1;
+  opacity: .40;
+  width: 100%;
+  padding: 0px 20px;
+  background: rgba(56, 54, 54, 0.86);
+  position: absolute;
+  bottom:100%;
+  left: -0%;
+  border-radius: 9px;
+  font-size: 12px;
+  transform: translateY(9px);
+  transition: all 0.3s ease-in-out;
+  
+  box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+  text-align: center;
+  color: white;
+}
+
+
+/* tooltip  after*/
+.tooltip::after {
+  content: " ";
+  width: 0;
+  height: 0;
+  
+  border-style: solid;
+  border-width: 12px 12.5px 0 12.5px;
+  border-color: rgba(56, 54, 54, 0.86) transparent transparent transparent;
+
+  position: absolute;
+  left: 40%;
+
+}
+
+.react-calendar__tile {
+  background-color: black ;
+  color: white !important;
+}
+.react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus{
+  color: black !important;
+}
+.darkmode_color{
+  color: #fff600 !important;
+}
+
+.darkmode_color_bacground{
+  color:white !important;
+  background-color: black !important;
+}
+
+.form-check-input:checked {
+  background-color: #103654;
+  border-color: #103654;
+}
+
+
