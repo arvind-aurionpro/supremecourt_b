@@ -114,7 +114,14 @@ li{
 .nav_color_hover:hover{
   color:white;
 }
-
+.nav_active{
+  color:black !important;
+  background-color: white;
+}
+.nav_active:hover{
+  color:black !important;
+ 
+}
 
 .meetinginfo-box, 
 .noticeinfo-box{
@@ -665,5 +672,6 @@ height: 100%;
   background-color: #103654;
   border-color: #103654;
 }
+
 
 
